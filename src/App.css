@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+
+.code, .typing {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50%, -50%;
+    font-size: 16px;
+    color: grey;
+
+}
+
+.typing {
+    z-index: 621;
+}
+
+.typing input {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-size: 16px;
+    padding: 0;
+}
+
+.typing .typed {
+    color: red;
+}
